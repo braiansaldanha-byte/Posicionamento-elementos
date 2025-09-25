@@ -1,4 +1,4 @@
-        function toggleImage(img) {
+        function mudaImagem(img) {
             const currentSrc = img.src;
             const altSrc = img.getAttribute('data-alt-src');
             
@@ -10,3 +10,4 @@
                 img.style.transform = 'scale(1)';
             }, 150);
         }
+
